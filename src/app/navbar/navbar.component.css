@@ -1,16 +1,13 @@
 .main-nav-container{
-    /* margin-left: 10rem;
-    margin-right: 10rem; */
+    margin-left: 10rem;
+    margin-right: 10rem;
     font-size: 2.5rem;
     display: flex;
     flex-direction: row;
     align-items:center;
     justify-content: space-between;
-    /*background-color: var(--secondary-dark-color);*/
     height: 5rem;
     padding-bottom: 1rem;
-    padding-left: 10rem;
-    padding-right: 10rem;
     border-bottom: 1px solid var(--secondary-color);
 }
 
