@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+html{
+    --primary-color: #04044c;
+    --primary-color-rgb: 4,4,76;
+    --secondary-color: #aed22a;
+    --secondary-color-rgb: 174,210,42;
+    --secondary-dark-color: #738c3c;
+    --secondary-dark-color-rgb: 115,140,60;
+
+    --black: #000000;
+    --white: #FFFFFF;
+
+    background-color: var(--primary-color);
+    
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    font-family: 'Bakbak One', cursive;
+}
