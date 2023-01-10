@@ -1,8 +1,17 @@
 <div class="main-nav-container">
-    <div class="nav-logo"><a routerLink="">{{'zerq' | uppercase}}</a></div>
-    <ul>
+    <div class="nav-logo current-page"><a routerLink="">{{'zerq' | uppercase}}</a></div>
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button'></div>
+    </label>
+    <ul class="big-screen-menu">
         <li><a>{{'portfolio' | uppercase}}</a></li>
         <li *ngIf="false"><a>{{'blog' | uppercase}}</a></li>
         <li><a>{{'contact' | uppercase}}</a></li>
     </ul>
+    <ul class="menu">
+        <li><a>{{'portfolio' | uppercase}}</a></li>
+        <li *ngIf="false"><a>{{'blog' | uppercase}}</a></li>
+        <li><a>{{'contact' | uppercase}}</a></li>
+      </ul>
 </div>

@@ -1,4 +1,4 @@
-html{
+:root{
     --primary-color: #04044c;
     --primary-color-rgb: 4,4,76;
     --secondary-color: #aed22a;
@@ -8,7 +8,9 @@ html{
 
     --black: #000000;
     --white: #FFFFFF;
+}
 
+html{
     background-color: var(--primary-color);
     
     -ms-overflow-style: none;
