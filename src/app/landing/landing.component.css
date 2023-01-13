@@ -57,8 +57,8 @@
     color: var(--white);
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding-left: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-top: 10%;
     font-size: 1.25rem;
 }
@@ -75,4 +75,148 @@
 .dps{
     font-size: 1.25rem;
     color: #1e4f9c;
+}
+
+.buttons-container{
+    width: 50%;
+    height: 2.25rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    left: 0;
+}
+
+.nav-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn-primary{
+    background-color: var(--secondary-color);
+    border-radius: 1rem;
+    border: none;
+    height: 100%;
+    font-weight: 800;
+    cursor: pointer;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.btn-primary:hover{
+    background-color: rgba(var(--secondary-color-rgb), 0.6);
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -ms-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+
+.btn-secondary{
+    background-color: var(--white);
+    border-radius: 1rem;
+    border: none;
+    height: 100%;
+    font-weight: 800;
+    cursor: pointer;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 1.5rem;
+}
+
+.btn-secondary:hover{
+    background-color: var(--grey-light);
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -ms-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+
+.social-buttons{
+    height: 100%;
+    font-size: 2.1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.social-buttons i{
+    top:0;
+    margin-left: 1.5rem;
+    cursor: pointer;
+}
+
+@media (max-width:1800px){
+    .buttons-container{
+        width: 60%;
+    }
+}
+
+@media (max-width: 1600px){
+    .buttons-container{
+        width: 70%;
+        height: 2.5rem;
+        margin-top: 2%;
+    }
+
+    .btn-primary{
+        font-size: 1rem;
+    }
+    .btn-secondary{
+        font-size: 1rem;
+        margin-left: 1.5rem;
+    }
+
+    .img-container{
+        width: 50%;
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 700px){
+    .landing-main-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .introduction{
+        width: auto;
+        font-size: .75rem;
+    }
+
+    .name{
+        font-size: 1.5rem;
+    }
+    
+    .dps{
+        font-size: .675rem;
+    }
+
+    .buttons-container{
+        width: 25%;
+        height: 1.5rem;
+        margin-top: 5%;
+    }
+
+    .btn-primary{
+        font-size: .5rem;
+    }
+    .btn-secondary{
+        font-size: .5rem;
+        margin-left: .75rem;
+    }
+    .social-buttons i{
+        margin-left: .75rem;
+    }
+
+    .social-buttons{
+        font-size: 1.5rem;
+    }
+
+    .img-container{
+        width: 13rem;
+        height: 20rem;
+        margin-top: 2rem;
+    }
 }

@@ -4,6 +4,16 @@
         <span class="name">{{'i\'m mateusz' | uppercase}}</span>
         <span>{{'i\'m a software developer' | uppercase}}</span>
         <span>{{'currently working at ' | uppercase}}<span class="dps">{{'DPS Software' | uppercase}}</span></span>
+        <div class="buttons-container">
+            <div class="nav-buttons">
+                <button class="btn-primary" (click)="goTo('contact')">{{'contact'|uppercase}}</button>
+                <button class="btn-secondary" (click)="goTo('about')">{{'about me'|uppercase}}</button>
+            </div>
+            <div class="social-buttons">
+                <i class='bx bxl-github' (click)="openGH()" ></i>
+                <i class='bx bxl-linkedin-square' (click)="openIN()"></i>
+            </div>
+        </div>
     </div>
     <div class="img-container">
         <div class="portrait-container">
