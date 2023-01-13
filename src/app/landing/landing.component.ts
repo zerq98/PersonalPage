@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-landing',
@@ -7,4 +8,19 @@ import { Component } from '@angular/core';
 })
 export class LandingComponent {
 
+  constructor(private router: Router){
+
+  }
+
+  goTo(page:string){
+    this.router.navigate(['/'+page]);
+  }
+
+  openGH(){
+    window.open('https://github.com/zerq98',"_blank");
+  }
+
+  openIN(){
+    window.open('https://www.linkedin.com/in/mateusz-trybuła-301563190/',"_blank");
+  }
 }

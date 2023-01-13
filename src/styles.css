@@ -1,13 +1,17 @@
 :root{
-    --primary-color: #04044c;
+    --primary-color: #111111;
     --primary-color-rgb: 4,4,76;
     --secondary-color: #aed22a;
     --secondary-color-rgb: 174,210,42;
     --secondary-dark-color: #738c3c;
     --secondary-dark-color-rgb: 115,140,60;
+    --secondary-light-color: #C5DA75;
+    --secondary-light-color-rgb: 197,218,117;
 
     --black: #000000;
     --white: #FFFFFF;
+
+    --grey-light: #AAAAAA;
 }
 
 html{
@@ -17,4 +21,5 @@ html{
     scrollbar-width: none;
 
     font-family: 'Bakbak One', cursive;
+    font-size: 15px !important;
 }
