@@ -23,4 +23,8 @@ export class LandingComponent {
   openIN(){
     window.open('https://www.linkedin.com/in/mateusz-trybuła-301563190/',"_blank");
   }
+
+  getResume(){
+    window.open('../../assets/files/MateuszTrybułaResume.pdf','_blank');
+  }
 }
