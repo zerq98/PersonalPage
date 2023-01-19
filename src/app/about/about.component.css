@@ -1,0 +1,31 @@
+.about-main-container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--white);
+    font-size: 2rem;
+    margin-top: 10rem;
+}
+
+.about-header{
+    color: var(--secondary-color);
+    margin-bottom: 3rem;
+}
+
+.about-text{
+    margin-right: auto;
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 1600px){
+    .about-main-container{
+        width: 80%;
+    }
+}
+
+@media (max-width: 780px){
+    .about-main-container{
+        width: 80%;
+        font-size: 1.5rem;
+    }
+}

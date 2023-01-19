@@ -6,19 +6,22 @@ import { AppComponent } from './app.component';
 import { LandingComponent } from './landing/landing.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { AboutComponent } from './about/about.component';
 
 
 const routes: Routes=[
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   {path: 'home', component: LandingComponent},
-  {path: 'projects',component: ProjectsComponent}
+  {path: 'projects',component: ProjectsComponent},
+  {path: 'about',component: AboutComponent}
 ];
 @NgModule({
   declarations: [
     AppComponent,
     LandingComponent,
     NavbarComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule, RouterModule.forRoot(routes)
