@@ -49,6 +49,10 @@ a:hover {
     transition: color 0.5s;
 }
 
+#logo{
+    border-radius: 25px;
+}
+
 ul {
     font-size: 1.25rem;
     list-style-type: none;
