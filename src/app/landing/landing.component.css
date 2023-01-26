@@ -49,6 +49,7 @@
     margin-left: 1rem !important;
     color: #1e4f9c;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .dps:hover{
