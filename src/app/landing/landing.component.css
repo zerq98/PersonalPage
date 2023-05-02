@@ -44,16 +44,16 @@
     color: var(--secondary-color);
 }
 
-.dps{
+.companyName{
     font-size: 1.25rem;
     margin-left: 1rem !important;
-    color: #1e4f9c;
+    color: #0ccccc;
     cursor: pointer;
     text-decoration: none;
 }
 
-.dps:hover{
-    color: #3f82f0;
+.companyName:hover{
+    color: #ff4f94;
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -ms-transition: all 1s ease;
